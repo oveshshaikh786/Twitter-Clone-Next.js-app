@@ -1,0 +1,15 @@
+{
+  "singleQuote": true,
+  "quoteProps": "as-needed"
+
+}
+{
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+
+
+
+  
