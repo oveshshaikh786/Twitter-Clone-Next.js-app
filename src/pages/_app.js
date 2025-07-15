@@ -1,7 +1,7 @@
 import '../styles/global.css';
 import { SessionProvider } from 'next-auth/react';
 import TimeAgo from 'javascript-time-ago';
-import en from 'javascript-time-ago/locale/en.json';
+import en from 'javascript-time-ago/locale/en';
 
 TimeAgo.addDefaultLocale(en);
 

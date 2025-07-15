@@ -1,0 +1,11 @@
+# Enforce LF line endings for these file types:
+*.js      text eol=lf
+*.ts      text eol=lf
+*.tsx     text eol=lf
+*.json    text eol=lf
+*.css     text eol=lf
+*.html    text eol=lf
+*.md      text eol=lf
+
+# Let Git handle other text files automatically
+*        text=auto
