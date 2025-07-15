@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "node -e \"console.log('Next version:', require('next/package.json').version)\""
   },
   "dependencies": {
     "@auth/mongodb-adapter": "^3.9.1",
