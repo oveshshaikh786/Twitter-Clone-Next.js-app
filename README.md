@@ -47,9 +47,9 @@ Built with **Next.js, React, Node.js, and JWT authentication**, this app enables
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-Fork the repo
-Create a new branch
-Submit a pull request
+- Contributions are welcome!
+- Fork the repo
+- Create a new branch
+- Submit a pull request
 
 
