@@ -44,6 +44,8 @@ Built with **Next.js, React, Node.js, and JWT authentication**, this app enables
 
 ## 📷 Screenshots
 ![App Screenshot](public/Login_Page.png)
+![App Screenshot](public/Home_Page.png)
+![App Screenshot](public/User_Page.png)
 
 ## 🤝 Contributing
 
