@@ -1,6 +1,6 @@
 import User from '../../models/User';
 import { initMongoose } from '../../libs/mongoose';
-import { getServerSession } from 'next-auth';
+import { getServerSession } from 'next-auth/next';
 import { authOptions } from './auth/[...nextauth]';
 import Follower from "../../models/Follower";
 

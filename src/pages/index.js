@@ -46,16 +46,28 @@ export default function Home() {
   }, []);
 
   if (userInfoStatus === 'loading') {
-    return 'loading user info';
+    return (
+    <div className="text-center text-blue-500 font-semibold py-4">
+      Loading user info...
+    </div> 
+    );
   }
 
   if (userInfo && !userInfo?.username) {
-    return <UsernameForm />;
+    return (
+    <div className="flex justify-center items-center h-screen">
+      <UsernameForm />
+    </div>
+    );
   }
 
   if(!userInfo) {
     router.push('/login');
-    return 'no user info';
+    return (
+    <div className="text-center text-red-500 font-medium py-4">
+      No user info
+    </div>
+    );
   }
 
   return (

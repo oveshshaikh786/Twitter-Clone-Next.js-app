@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 export default function LoginPage({providers}) {
   const {data, status} = useSession();
   const router = useRouter();
+  
   if(status === 'loading') {
     return '';
   }
@@ -12,6 +13,15 @@ export default function LoginPage({providers}) {
     router.push('/');
   }
   
+  async function handleSignIn(id) {
+    try {
+      await signIn(id);
+    } catch(e) {
+      setError('Failed to sign in');
+      console.error(e);
+    }
+  }
+
   return (
     <div className="flex items-center justify-center h-screen">
       {providers &&
@@ -29,6 +39,7 @@ export default function LoginPage({providers}) {
 
 export async function getServerSideProps() {
   const providers = await getProviders();
+  //console.log('Providers:', providers);
   return {
       props: {providers},
   }
