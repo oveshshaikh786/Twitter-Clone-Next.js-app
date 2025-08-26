@@ -43,7 +43,7 @@ Built with **Next.js, React, Node.js, and JWT authentication**, this app enables
    http://localhost:3000
 
 ## 📷 Screenshots
-![App Screenshot](assets/screenshot.png)
+![App Screenshot](public/Login_Page.png)
 
 ## 🤝 Contributing
 
